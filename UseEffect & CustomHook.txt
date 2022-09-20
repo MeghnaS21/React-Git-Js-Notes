@@ -1,0 +1,72 @@
+setState --> 
+
+props -->
+
+USEEFFECT IN REACT JS
+1-It wil be executed after all the renders
+componentdidmount will run after mounting and to
+achieve that, we have to give an empty dependency array.
+2-useEffect( callback func ()=>{}, dependency empty array[])
+it will trigger useEffect after only initial render(or mounting).
+It will get the data after initial renders
+3-Giving exact dependency array, [state, props] -- useful for API calls. Later we'll use it with fake server or something I couldn't hear... 
+also you can give multiple useEffect Implementation
+4- can also do component unmount
+equivalent to unmount
+return a callback function to workupon cleanup. We will us eit with authentication 
+
+5- 
+
+AXIOS:
+
+Async Await
+create a new function inside callback & then use axios refer 
+
+CUSTOM HOOKS
+
+1- APIs
+2- 
+
+2:35 pm CUSTOM HOOKS--> for forms
+
+just for reusability and readability .
+
+custom hook is nothing but simple js func, 
+create state and setState inside function,
+return and object of data that we have created inside useState
+
+call the func inside component
+
+note: it is not sharing, just sending data like props
+this is another way of sharing data
+
+sending data function to functional component
+
+usecases(advance)
+
+resize page
+create hook for screensize
+effects
+
+difference btw hook and js func, it's better to start with "use" keyword
+
+Split hook and use it anywhere
+
+create a separate folder-> customhooks, inside of it->useHook.js
+
+export it like other hooks.
+
+and in the component, to use custom hooks use->
+    "note: don't forget to import useState inside customHook file"
+import {useHook} from "path"
+
+
+FLOW-->
+
+calling useInput
+return values- ONBLUR AND ONCHANGE
+
+We have only discussed an abstract useCase.
+"multiple usecases are there for Custom Hooks"
+
+

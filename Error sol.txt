@@ -1,0 +1,63 @@
+Practice by building projects
+ Build a big project and integrate and learn each and everything
+
+
+1- Learn form YouTube
+2- Implement in VScode
+3- commit using conventional commits
+4- document it in notepad
+
+WORK HARD BOSS BABE !!
+
+YOU HAVE TO DO THIS !!
+BE A MILESTONE  !!!!!
+
+DONT LOOSE FOCUS, WORK ON YOUR WEAKNESSES AND NOT SUCCESS AND APPRECIATION, 
+
+TO RISE ABOVE YOU HAVE TO FALL
+TO LAUGH, YOU HAVE TO CRY
+TO SHINE, FIRST YOU HAVE TO BURN YOURSELF!!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Errors with solution
+
+1- always import style file in app.js if app.js is your main component
+2- We cannot change the value of const data, so to change the value we have to use hook i.e. useState
+3- Onclick is fired(technical terminology)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

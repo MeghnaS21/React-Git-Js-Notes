@@ -1,0 +1,22 @@
+user 
+<i class="fa-solid fa-user"></i>
+<i class="fa-solid fa-briefcase"></i>
+<i class="fa-solid fa-bookmark"></i>
+<i class="fa-solid fa-truck"></i>
+<i class="fa-solid fa-chart-line-up"></i>
+<i class="fa-solid fa-bell"></i>
+<i class="fa-sharp fa-solid fa-square-user"></i>
+<i class="fa-solid fa-right-from-bracket"></i>
+
+
+<i class="fa-duotone fa-language"></i>
+<i class="fa-solid fa-list-radio"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+
+
+
+<i class="fa-brands fa-rocketchat"></i>
+<i class="fa-regular fa-moon"></i>
+
+<i class="fa-solid fa-angle-up"></i>
+<i class="fa-solid fa-angle-down"></i>

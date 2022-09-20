@@ -1,0 +1,35 @@
+CSS Rules
+
+1  Always use unique class names
+2- No fancy font families
+3- Unnecessary styling should be avoided
+
+
+          UI Features:-
+
+Page transitions in router 6
+Loading page while dom is rendering
+Error page
+
+
+Frontend Features
+
+1- Download resume
+2- Notify candidate via email if profile suits
+3- Trigger Landing Page
+4- Popup window 
+notification using toastify
+
+Functionality Features
+
+
+
+1- Searching, Sorting, Filtering
+
+
+Download Resume:-
+
+1- window.print --- issue---downloads the entire page alogn with navbar & footer. No styles is included :(
+2-simply using anchor tag ---- issue----didn't worked :(
+3- Build a resume & download it on client side ---issue---it's a lengthy      process, but as per the problem statement we need to have a user     dashboard and resume download button. :((
+4-Using fetch method. SUCCESSFULL :))

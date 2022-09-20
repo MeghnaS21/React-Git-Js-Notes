@@ -1,0 +1,38 @@
+Campus to Corporate
+
+Professional behaviour.
+  1- School diary -> key, action
+  2- IIT, IIMs lectures
+  3-
+
+require('dotenv').config();
+
+mcqs-50ques
+code snippets
+complete that
+
+
+test('display success if the counter is working correctly',()=>{
+        render(<Counter/>)
+        const count=screen.getByTestId('counter')
+        expect(count).toHaveValue(0)
+        userEvent.click(buttonList[0])
+        expect(count).toHaveValue(1)
+    })
+
+--------------------Memoisation--------------
+props drilling:
+context
+redux
+
+performance:
+ function xyz -> n of times for same input
+)
+const xyz=useMemo(()=>console.log('some func))
+
+const increment=useCallBack(()=>{
+setCount(count+1)
+},[count])
+
+React.memo - re-rendering
+lifecycle

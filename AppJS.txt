@@ -1,0 +1,25 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Components/home/Home";
+import './App.css'
+import Navbar from "./Components/common/navbar/Navbar";
+import Footer from "./Components/common/footer/Footer";
+
+function App() {
+  return (
+    <BrowserRouter>
+    <Navbar></Navbar>
+      <Routes>
+        <Route path="/" element={<Home></Home>} />
+        <Route path="/about" />
+        <Route path="/explorejobs" />
+        <Route path="/user" />
+        <Route path="/login" />
+        <Route path="/signup" />
+
+      </Routes>
+      <Footer></Footer>
+    </BrowserRouter>
+  );
+}
+
+export default App;

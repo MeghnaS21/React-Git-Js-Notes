@@ -1,0 +1,41 @@
+PROFESSIONAL TOUCH!!!
+
+Use Conventional Git Commits:-
+
+1- refactor -
+                  i)Delete unwanted files(logo, webvitals, test files and so on..
+                  ii)Create folder structure for components,
+                 iii)
+
+2-build-
+         i)Install browser to connect my app to url
+
+2-fix-
+         i)fix! : Successfully connected to URL!! imported & rendered browser                  router. 
+
+3- feat! : 
+                i) Add navbar to the app
+                ii) add any kind of 
+                               
+
+4- perf: 
+             i) Replaced Link with NavLink for active classes
+             ii) nested routing
+             iii) Shared layouts- outlets
+             
+            
+
+5- style:
+            i) Code formating
+           ii) Add styling to navbar
+           iii)anykind of styling to the page   
+
+6- 
+
+
+For more details, refer this article->
+
+https://www.conventionalcommits.org/en/v1.0.0/
+            
+          
+                

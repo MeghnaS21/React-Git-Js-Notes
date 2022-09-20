@@ -1,0 +1,88 @@
+1- Connect your app to the URL by importing BrowserRouter in the index.js  
+& rendering it around the whole app.
+
+2- Added some links
+   in app.js
+   import Link & add some global navigation
+   using <Link to = "/invoices">INVOICES</Link>
+  <Link to = "/expenses">EXPENSES</Link>
+
+3- Add some routes
+  i) create files:-
+  ./routes/invoices.js
+  ./routes/invoices.js
+
+  ii) add some code
+     rface, h2 inside main with some styling
+
+4- Teach my browser router how to render our app at different urls
+
+   in our index.js---->>>
+   i)import { BrowserRouter, Routes, Route } from 'react-router-dom';
+   ii)import files 
+                          import Expenses from './routes/expenses';
+                          import Invoices from './routes/invoices';
+   iii)add Routes inside BroswerRouter
+   iv) add Route inside 3 Routes(home, invoices, expenses)
+   v)  now add path to different components at different links
+         <Route path='/' element={<App />}></Route>
+        <Route path='/invoices' element={<Invoices/>}></Route>
+        <Route path='/expenses' element={<Expenses/>}></Route>
+  
+5- NESTED ROUTES
+
+It will help in sharing the layout with other routes too.
+So, as we know, we have navbar layout at my app.js so I will  
+i) nest the other two routes(invoices and expenses) inside (app) route in index
+ii) import outlet and render it below nav bar tag.
+
+In thisway, app.js layout will persist
+
+NOTE: this works at any level of the route hierarchy and is incredibly powerful.
+
+
+6- CREATED SOME HARD CODED DATA, INSTEAD OF FETCHING DATA FROM APIs
+
+created /src/data.js file
+
+7- DISPLAY THE DATA IN INVOICE PAGE
+
+i) import the invoice data in invoices.js file
+iii) inside func, before return, create a function expression 
+      const invoices = getInvoices();
+iv) inside nav, i will map the array of objects received in invoices to invoice.
+      map function takes  a callback func, and renders a js expression inside 
+     ` ${object.property}`
+
+8- ADD LINKS TO EACH OBJECT OF DATA
+
+i) import Link from react router dom in invoices file(remove invoice .name) for now
+ii) add <Link></Link> inside my map's callback function
+iii) inside opening <Link here>, add style(optional), to={'path ${object.id}'}, key={object.id}
+iv) now that object.property inside Link. <Link> HERE </Link>
+  
+   
+9- HANDLING NO MATCH ROUTE
+
+i) Go to route config i.e. where your browser router is wrapping the whole app--> index.js
+ii) Add a path to '*', and inside element add a message"
+
+10- READING URL PARAMS
+
+i) create a new Route inside invoices route
+ii) set the path=':invoiceId'
+
+11- To show the layout of the newly added component use outlet in the parent route
+
+12- Open up the invoice component again and let's get the :invoiceId param from the URL:
+
+  i) import { useParams } from "react-router-dom";
+  ii) create func expression,  const params=useParams();
+  iii) return <h2>Invoice: {params.invoiceId}</h2>;
+
+13- To build interesting invoice page
+
+  i) Open up src/data.js and add a new function to lookup invoices by their   number:
+  ii)And now back in invoice.jsx we use the param to look up an invoice and  display more information:
+ ii) Note that we used parseInt around the param. It's very common for your  data lookups to use a number type, but URL params are always string.
+

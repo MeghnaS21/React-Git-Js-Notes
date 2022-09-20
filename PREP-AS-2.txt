@@ -1,0 +1,65 @@
+Topics for ASSESSMENT-2
+
+1- Functional Components
+2- Routers
+3- useState, useeffect, Hooks, Custom Hooks
+
+Additional preparation 
+
+1- Responsive Navbar(Top + side)
+2- Sorting
+3- CRUD operations in routers 
+4- Styling(Neon , Minimal like PRADA)
+
+Projects to work & practice
+
+1-Login & Dashboard(routers)
+2- Score Board(sorting)
+2- Contact Manager(crud using useState)
+3-Contact Manager App(using useEffect)
+
+Strategy:-
+
+1-Clear the concepts(work on improving basics)
+2-Time Management
+3- Styling according to time.
+4- Additional learnings
+
+Projects outside training
+
+1- My own website, including all the projects in a dropdown button weekwise
+2- React Batch
+3- Theme Changer
+
+Time Management
+
+Reading time:-
+   i) Understand the question, try to relate it with the projects you have done        already
+   ii) Plan your 2 hours
+   iii) Decide the flow of your app
+    iv) If you are unable to build from scratch, Focus more on changing the previous stuff.
+  iii)Customise the same with stylings
+
+BE A GAME CHANGER:-
+
+1- KEEP ALREADY STYLED LAYOUTS
+
+DIFFERENT CSS EFFECTS:-
+
+1- Glassmorphism
+2- Neon(Box shadow on black, neoon scroll bar, )
+3- Minimal(Black and white + Box shadows+transitions)
+4- Bootstrap card zoom in and zoom out effect
+5- Creative product card ui Design
+6- Video Background
+
+
+PRACTICE :-
+
+1- khudse responsive nav bar bnanae ka try kro
+2- Then implement contact manager with crud operations
+3- Scoreboard wala smjho + khudse try kro
+4- 
+  
+
+

@@ -1,0 +1,52 @@
+Difference betweeen vanilla js & react
+vanilla js is base for every library and framewrok and react is a library
+
+For server, we can use nodejs
+nodejs is something like vanilla js, no flexible feature, we have to do it on our own
+express js is like react
+Express has it's own functionality like react to build server
+
+
+many types of storage on client-->
+
+Browser's storage :- 
+1) local storage 2) session storage 3) cookie(less used today)
+
+Meant for multiple purposes, just to remember, which user has logged in, not asking user everrytime user name and password. In short, one time authentications for a particular period of time. 
+
+example-
+1) open gmail
+2) backend create token
+3) five it to client
+4) client hitting api-> you will be authorising the user using that token
+
+difference between authorisation and authentication:-
+    authorisation-> access with this token
+   authentication-> check and send the key
+For authorisation -> JWT 
+
+Example-
+
+1- login (using payload, we will send username and password) cleient to server
+2- server is connected to mond=godb
+3- server generates token
+4- 
+
+Basic functionality of server
+
+identify the req and send the request accordingly
+
+1- Es6 and es5 imports
+
+HOW THEY CREATE BACKEND IS DIFFRENT 
+FLOW IS DIFFRENT BUT PROCESS IS SAME
+
+postman is highly resource draining
+
+1- webapp architechture
+2- system design case study(web whatsapp, netflix, instagram)
+3- how to connect express js to react js
+
+
+
+

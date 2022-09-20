@@ -1,0 +1,4 @@
+Web Application Architechture- 3 types
+
+1- SPAs :-
+    A concise form of Asynchronous JavaScript and fetch API is the foundation for   enabling   page communications and hence, making SPAs a reality. Because single-page applications prevent interruptions in user experience, they, in a way, resemble traditional desktop applications.

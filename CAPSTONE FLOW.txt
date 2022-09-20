@@ -1,0 +1,40 @@
+CAPSTONE PROJECT - TEAM(4)
+
+  1)  6th sept  TO 10th/12th sept ---(Complete end product + styling)( in 5  days)
+         
+  2)  11/13  TO 14th (Preparing for presentation/pending work/PPT file)
+
+
+PROBLEMS
+
+1) How to collaborate/work in a team on same project with different developers? 
+
+
+STRATEGY
+
+1) Every team will develop all the features, but what will makes us different from other teams is  our UI.
+
+2) Do not develop from scratch, otherwise UNIQUE FEATURES cannot be implemented? (Not mandatory)
+
+3) Divide the problem statement as react components and work accordingly.
+
+4) Common style throughout the development phase. - white bg & black text color
+
+5) React best practices. Clean code. Semantic tags.
+
+6) Divide the project (DAY- WISE)
+
+
+
+RULES
+
+1)  Do not share team strategies with other team members for the sake of  CAPSTONE PROJECT.
+
+2)  Be open, share ideas either in chat window or by unmuting yourself.
+
+3)  If you get stuck,do ask other members and don't hesitate. Because we have limited time, so being stuck in finding solution to a problem on our own for more than 2 hours will waste your precious time and productivity. 
+
+4) Do not forget to take rest. :))
+
+
+

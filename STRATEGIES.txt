@@ -1,0 +1,15 @@
+Strategy-1 
+
+1- Practice on all mini javascript & react projects.
+2- Best coding practices in javascript and react.
+3- How to perform optimisation in react project.
+4- Work upon layouts, css tricks like- glassmorphism, box-shadow, translate and neon effect on buttons.
+5- Best Boostrap & CSS practices.
+6- Time Management
+
+HTML best practices
+
+1- 
+
+
+

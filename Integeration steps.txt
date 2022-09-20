@@ -1,0 +1,20 @@
+Integration Steps
+
+Stage-1:-
+
+1- Pull the updates
+2- Install dependencies
+3- Replace app.js
+
+
+Stage-2:-
+
+1- Added Login Component (No changes needed)
+2- Added JobListing Component
+      i)Added margin to the parent div
+      ii)Added unique classname to the JobListing card because it the       (JobListing.css was modifying Home.css)
+3- Added Signup.js Component
+     i) Removed Header
+4- Added employee.js Component
+   
+

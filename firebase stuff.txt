@@ -1,0 +1,38 @@
+1- firestore database
+ create db
+pop up - security rules
+test mode 
+
+2- start test mode
+3- later we will secure ourfirebase
+
+2- Connecting to firebase
+1-Install firebase project locally 
+    npm install firebase@8.5
+    version 8.5 
+2- set app name, register
+3- It will show how to sue firebase
+    Don't do anything jsut click continue
+4- click config, get simplified object
+5- use that cinfig obj to connect frontend app to abckedn
+6- create forebase folder
+7- in config.js
+    import firebase from 'firebase/app'
+    import 'firebase/firestore'
+    paste in that config object
+    // init firebase
+   firebase.initializeApp(firebaseConfig)
+
+    //init services
+   const projectFirestore = firebase.firestore()
+   export {proejctFirestore}
+   
+
+UDEMY CREDENTIALS FOR FIREBASE
+
+
+
+
+
+    
+

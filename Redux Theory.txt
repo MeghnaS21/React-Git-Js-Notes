@@ -1,0 +1,40 @@
+Topics:
+
+1- UseEffect hook
+2- Context hook
+3- Redux
+
+
+React Redux Terminologies
+
+Redux - A complex state management too, with a single store as CDS(central data store)
+
+Reducers - Manages the state and returns the newly updated state.
+
+Actions - part of  reducer function. Basically a parameter in reducer function. They have 2                   properties type:
+                  A unique udentifier, payload which has data
+
+Dispatch - is used to send actions to update the data.
+
+
+Thapa Technical :----->>>
+
+1-  What is Redux?
+Ans:- 
+
+1- State management
+2- 
+
+
+
+
+Uncontrolled forms in react js or react dom?
+
+using ref that is uncontrolled forms in reacts js
+
+
+
+
+                  
+                  
+

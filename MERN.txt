@@ -1,0 +1,25 @@
+
+
+
+//TASK MANAGER - FLOW - :-
+
+STEP-1:- CREATED FOLDER INSIDE SRC. (SRC--->TASKMANAGER)
+STEP-2:- CREATED 5-FILES INSIDE IT. (SRC--->TASKMANAGER-->1-TASKMANAGERDATA.JS
+                                                         2-TASKMANAGER.JS
+                                                         3-COMPLETEDCOMPONENT.JS
+                                                         4-PENDINGCOMPONENT.JS
+                                                         5-BINCOMPONENT.JS     )
+
+STEP-3:- Injected data(object with fields inside TASKMANAGERDATA.JS)
+STEP-4:- Imported data and parent component file in app.js
+
+STEP-5:- Passed props(data) to parent component
+STEP-6:- inside parent->
+         i) initialised the state(tasks) with intial data, data was 
+          accepted in form of props.
+         ii)rendered h1 tag (JSX).
+         ii)rendered child components.
+            a)getting the status(state) of our child component let say, 
+             pendingtask component using getPendingItems function.
+            b) at the same time re-rendering the completion state using 
+             changeCompletionStatus function.
